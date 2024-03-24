@@ -19,7 +19,7 @@ A Simple Visualized Tool to Transform ASCII Code
 
 ### Instruction
 
-- Run [ASCII-code-transformer.exe](ASCII-code-transformer.exe)
+- Run [ASCII-code-transformer.exe](ASCII-code-transformer.exe) ([download link](https://github.com/MyGitRobot/ASCIICodeTransformer/releases/download/v1.0.0/ASCII-code-transformer.exe))
 - Choose `Character to Code` or `Code to Character`
 - Input **Character**/**ASCII Code** that needs to be transformed
 - Click `Transform` button
@@ -46,7 +46,7 @@ A Simple Visualized Tool to Transform ASCII Code
 
 ### 使用说明
 
-- 运行[ASCII-code-transformer-zh.exe](ASCII-code-transformer-zh.exe)
+- 运行[ASCII-code-transformer-zh.exe](ASCII-code-transformer-zh.exe) ([下载链接](https://github.com/MyGitRobot/ASCIICodeTransformer/releases/download/v1.0.0/ASCII-code-transformer.exe))
 - 选择`字符->ASCII码`或`ASCII码->字符`
 - 输入需要转换的**字符**或**ASCII码**
 - 点击`转换`按钮
