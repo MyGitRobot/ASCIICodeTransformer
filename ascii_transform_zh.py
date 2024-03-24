@@ -13,7 +13,7 @@ import sys
 from PyQt6.QtWidgets import QApplication, QWidget, QMessageBox
 from PyQt6.QtGui import QIcon, QPixmap
 from ascii_transform_ui import Ui_Form
-from mr_ico import icon_hex
+#from mr_ico import icon_hex
 
 
 class Window(QWidget, Ui_Form):
@@ -21,10 +21,10 @@ class Window(QWidget, Ui_Form):
         super().__init__()
         self.setupUi(self)
         self.setFixedSize(312, 187)
-        self.pixmap = QPixmap()
-        self.pixmap.loadFromData(bytes.fromhex(icon_hex))
-        self.icon = QIcon(self.pixmap)
-        self.setWindowIcon(self.icon)
+        #self.pixmap = QPixmap()
+        #self.pixmap.loadFromData(bytes.fromhex(icon_hex))
+        #self.icon = QIcon(self.pixmap)
+        #self.setWindowIcon(self.icon)
         self.pushButton.clicked.connect(self.redirect)
 
         # -- 汉化 --
@@ -37,7 +37,7 @@ class Window(QWidget, Ui_Form):
 
     def Msgbox(self, msg_text:str):
         msgBox = QMessageBox()
-        msgBox.setWindowIcon(self.icon)
+        #msgBox.setWindowIcon(self.icon)
         msgBox.setWindowTitle('提示')
         msgBox.setIcon(QMessageBox.Icon.Information)
         msgBox.setText(msg_text)
